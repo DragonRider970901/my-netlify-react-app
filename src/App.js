@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Deployed to Netlify!</h1>
+      <h1>React Routing Practice</h1>
     </div>
   );
 }
