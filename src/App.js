@@ -8,10 +8,11 @@ import Categories from './Categories';
 import Profile from './Profile';
 import Root from './Root';
 
+
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<Root />} >
-      <Route path='about' element={<About />} />
+      <Route path='about' element={<About />} />  
       <Route path='sign-up' element={<SignUp />} />
       <Route path='articles' element={<Articles />} />
       <Route path='categories' element={<Categories />} />

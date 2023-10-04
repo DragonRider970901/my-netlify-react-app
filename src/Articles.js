@@ -1,10 +1,8 @@
 import React from "react";
-
+import { Link, Outlet } from "react-router-dom";
 function Articles() {
     return (
-        <div>
-            <h1>Articles</h1>
-        </div>
+        <h1>Articles</h1>
     );
 }
 
